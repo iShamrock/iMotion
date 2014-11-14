@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#536370"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/login_banner"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/login_im"
+
+
+            android:maxHeight="50dp"
+            android:minHeight="50dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#6d8293"
+            android:id="@+id/user"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:height="50dp"
+            android:minHeight="50dp"
+            android:textSize="30sp"
+            android:textColor="#f0f0f0"
+            android:text="@string/login_guest"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_add"
+            android:layout_weight="0"
+            android:id="@+id/add"
+            android:height="50dp"
+            android:maxHeight="50dp"
+            android:minHeight="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="left"
+            android:maxWidth="50dp"
+            android:minWidth="50dp"
+            android:width="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/lltPassword">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/login_key"
+
+            android:maxHeight="50dp"
+            android:minHeight="50dp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:minHeight="60dp"
+            android:id="@+id/password"
+            android:background="@drawable/login_text"
+            android:layout_marginLeft="0dp"
+            android:height="50dp"
+            android:textSize="30sp"
+            android:textColor="#f0f0f0"
+            android:ellipsize="end"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:visibility="invisible">-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:id="@+id/register" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_weight="1"-->
+    <!--android:id="@+id/login"-->
+    <!--android:layout_gravity="center_horizontal" />-->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:layout_width="800dp"
+        android:layout_height="60dp"
+        android:id="@+id/enter"
+        android:background="@drawable/login_btnlogin"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:height="60dp"
+        android:layout_gravity="center|bottom" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:background="@drawable/login_register"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp" />
+
+</LinearLayout>
+

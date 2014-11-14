@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BaiduMapsApiDemo.iml" filepath="$PROJECT_DIR$/../BaiduMapsApiDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HardGame/HardGame.iml" filepath="$PROJECT_DIR$/../HardGame/HardGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cocos2d-android/cocos2d-android.iml" filepath="$PROJECT_DIR$/../cocos2d-android/cocos2d-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iMotion.iml" filepath="$PROJECT_DIR$/iMotion.iml" />
+    </modules>
+  </component>
+</project>
+

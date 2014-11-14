@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_guest">Guest</string>
+    <string name="refresh">Refresh</string>
+    <string name="new_status">New Emotion</string>
+    <string name="location">Here</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+</resources>

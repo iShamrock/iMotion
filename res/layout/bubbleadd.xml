@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#536370">
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="68dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/new_banner"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:maxHeight="320dp"
+            android:minHeight="320dp"
+            android:background="@drawable/new_left_status"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="320dp"
+            android:id="@+id/bubbleAdd_text_editText"
+            android:gravity="top"
+            android:textSize="30sp"
+            android:height="50dp"
+            android:textColor="#f0f0f0"
+            android:background="@drawable/new_right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:maxHeight="50dp"
+            android:minHeight="50dp"
+            android:background="@drawable/new_left_location"
+            android:layout_weight="0"
+            android:layout_gravity="right" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="@string/location"
+            android:textSize="20sp"
+            android:height="50dp"
+            android:textColor="#f0f0f0"
+            android:gravity="center_vertical"
+            android:id="@+id/bubbleAdd_location_editText"
+            android:background="@drawable/login_text"
+            android:singleLine="true"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="972dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="162dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/new_giveup"
+            android:id="@+id/giveup"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="800dp"
+            android:layout_height="60dp"
+            android:background="@drawable/new_send"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bubbleAdd_broadcast_button"
+            android:gravity="left"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emotion_bubbleAdd_editText"
+        android:layout_weight="1"
+        android:minWidth="70dp"
+        android:text="心情"
+        android:visibility="gone"/>
+</LinearLayout>
