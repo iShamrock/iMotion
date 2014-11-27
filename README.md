@@ -92,32 +92,32 @@ getcomment	|ArrayList<staus>
 五、详细设计
 -------------
 ### 全局变量：
-1、	用户名USER，密码PASSWORD
-2、	气泡数据ArrayList<Bubble>
-3、	回复数据Arraylist<Reply>
-4、	从服务器接受的数据ArrayList<Status>
-5、	经纬度数据locData，地址数据location
+* 用户名USER，密码PASSWORD
+* 气泡数据ArrayList<Bubble>
+* 回复数据Arraylist<Reply>
+* 从服务器接受的数据ArrayList<Status>
+* 经纬度数据locData，地址数据location
 
 ### 对象设计：
-1、	Bubble类
+* Bubble类
 存储Bubble数据以及绘制气泡等方法
-2、Reply类
+* Reply类
 添加、存储回复信息
-3、User类
+* User类
 存储用户数据
-4、Status类
+* Status类
 可以存储Bubble信息和Reply信息，用来和服务器交换数据
-5、	Emotion类
+* Emotion类
 用来表示气泡的心情状态。
-6、	Angel类
+* Angel类
 用来在AR中计算气泡的信息，实现气泡的定位
 
 ### 功能类：
-1、	Location_Geo类
+* Location_Geo类
 用来获取用户当前的位置信息。定时刷新。
-2、	connectToDatabase类
+* connectToDatabase类
 提供与服务器通信的基本方法。
-3、	Connect类
+* Connect类
 提供标准方法实现与服务器交换数据，并对全局变量进行相应修改
 
 六、软件测试
